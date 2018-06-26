@@ -93,8 +93,8 @@
         var site_address = "http://www.notthesame.co/admin_v2";
 
         if (theme != app.setting.theme) {
-            lazyload.load(site_address + '/assets/css/theme/' + app.setting.theme + '.css').then(function () {
-                lazyload.unload(site_address + '/assets/css/theme/' + theme + '.css');
+            lazyload.load('../assets/css/theme/' + app.setting.theme + '.css').then(function () {
+                lazyload.unload('../assets/css/theme/' + theme + '.css');
                 theme = app.setting.theme;
             });
         }
