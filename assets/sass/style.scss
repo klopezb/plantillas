@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'oxygenbold';
+    src: url("../fonts/oxygen-bold-webfont.woff2") format("woff2"), url("../fonts/oxygen-Bold-webfont.ttf") format("ttf"), url("../fonts/oxygen-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygenlight';
+    src: url("../fonts/oxygen-light-webfont.woff2") format("woff2"), url("../fonts/oxygen-Light-webfont.ttf") format("ttf"), url("../fonts/oxygen-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url("../fonts/oxygen-regular-webfont.woff2") format("woff2"), url("../fonts/oxygen-regular-webfont.ttf") format("ttf"), url("../fonts/oxygen-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'oxygenregular';
+    font-size: 14px;
+}
+
+.navbar-brand {
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+
+.user-name {
+    line-height: 1.6em;
+}
+
+.nav-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidenav .nav li {
+    margin-bottom: 1.2em;
+}
+
+.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.select-content {
+    display: flex;
+    flex-direction: row;
+
+    div {
+        flex-direction: column;
+        width: 100%;
+    }
+}
