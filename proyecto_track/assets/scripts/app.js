@@ -57,4 +57,20 @@ var app = app || {};
    		app.init();
    	});
 
+      //TRACK//
+    $(".users .list-item").on("click",
+      function(){
+        if( $(this).hasClass("selected")){
+           $(this).removeClass("selected")
+        }else{
+           $(this).addClass("selected")
+        }
+          
+
+     
+    }
+
+
+    );
+
 })(jQuery, app);

@@ -60,3 +60,6 @@ body {
 .avatar-ver-caso{
       display: inline-block;
 }
+.users .list-item.selected{
+  background-color: rgba(51, 173, 200, 0.15);
+}
